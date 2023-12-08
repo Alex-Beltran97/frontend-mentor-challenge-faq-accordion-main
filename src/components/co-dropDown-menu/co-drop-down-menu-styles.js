@@ -14,6 +14,10 @@ export default css `
     color: var(--dark);
     font-weight: 700; 
   }
+
+  .question-container:hover {
+    color: #AD28EB;
+  }
   
   .answer {
     display: none;

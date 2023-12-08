@@ -19,7 +19,7 @@ export class CoHeaderCard extends LitElement {
   constructor() {
     super();
 
-    this.startIcon = "./src/assets/images/icon-star.svg";
+    this.startIcon = "https://res.cloudinary.com/duzyd4ju7/image/upload/v1702039459/icon-star_gw4prk.svg";
   };
 
   render() {

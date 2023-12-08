@@ -30,8 +30,8 @@ export class CoDropDOwnMenu extends LitElement {
 
     this.question = "";
     this.answer = "";
-    this.iconPlus = "./src/assets/images/icon-plus.svg";
-    this.iconMinus = "./src/assets/images/icon-minus.svg";
+    this.iconPlus = "https://res.cloudinary.com/duzyd4ju7/image/upload/v1702039469/icon-plus_s9pgwu.svg";
+    this.iconMinus = "https://res.cloudinary.com/duzyd4ju7/image/upload/v1702039476/icon-minus_nu8fdn.svg";
     this.wasClicked = false;
   };
 
