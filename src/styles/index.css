@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url(../assets/fonts/static/WorkSans-Bold.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url(../assets/fonts/static/WorkSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url(../assets/fonts/static/WorkSans-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light: hsl(275, 100%, 97%);
+  --grayish: hsl(292, 16%, 49%);
+  --dark: hsl(292, 42%, 14%);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  background-image: url(../assets/images/background-pattern-mobile.svg); 
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-attachment: fixed; 
+  background-color: var(--light);
+  font-family: "Work Sans";
+}
+
+my-app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 14px;
+  }
+}
